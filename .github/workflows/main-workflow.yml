@@ -32,7 +32,7 @@ jobs:
       run: python tshirts.py
     
     - name: misaligned fail
-      run: python misaligned.py
+      run: python color_map.py
 
     - name: alerter fail
-      run: python alerter.py
+      run: python temperature_alerter.py
